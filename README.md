@@ -67,8 +67,11 @@
 
     # Setup Process
 **Create new django project
-●Install latest python version or 3.11.5
-●Create New Folder called Django React LMS
+
+Install latest python version or 3.11.5
+
+Create New Folder called Django React LMS
+
 ●In the folder, create two new folders called, backend and frontend
 ●CD into backend and create a virtual environment - ``python -m venv venv``
 ●Activate the virtual environment - ``venv\Scripts\activate``
