@@ -63,5 +63,32 @@
 16. **Customizable User Profiles**
 
     - Allow students and instructors to customize their profiles with personal information, avatars, and a portfolio of completed courses. 
+				
+
+    # Setup Process
+**Create new django project
+●Install latest python version or 3.11.5
+●Create New Folder called Django React LMS
+●In the folder, create two new folders called, backend and frontend
+●CD into backend and create a virtual environment - ``python -m venv venv``
+●Activate the virtual environment - ``venv\Scripts\activate``
+●Install Django - ``python -m pip install Django==4.2``
+●Create a Django project in current folder - django-admin startproject backend .
+●Create a new requirements.txt file in the backend root dir and added the required packages
+●Install Required Packages from requirements.txt  - ``pip install -r requirements.txt``
+●Create new app userauths, core, userauths, api- python manage.py startapp app_name 
+●Apps are: core, api, userauths.
+●Create a .gitignore file and add the files to be ignored 
+●Install Apps in settings.py
+●Run Python Manage.py Runsever
+
+``npm install --global yarn
+yarn create vite . --template react
+yarn
+yarn add axios react-router-dom@6.10.0 zustand
+yarn add -D simple-zustand-devtools
+yarn dev``
+
+			
 
 
